@@ -39,7 +39,7 @@ class UriConfiguration {
     
     private String serverAddressURL = "http://localhost";
     
-    private Integer userServicePort = 8080;
+    private Integer userServicePort = 8090;
     
     private String userServiceURL = serverAddressURL.concat(":").concat(userServicePort.toString());
 
